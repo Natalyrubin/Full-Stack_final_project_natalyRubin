@@ -30,13 +30,13 @@ This is a full-stack e-commerce application for selling surfboards, built with H
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/surfboards-ecommerce.git
-cd surfboards-ecommerce
+cd surfboards-ecommerce```
 
 
 
 
 ### 2. Install Dependencies
-```Install backend and frontend dependencies:
+Install backend and frontend dependencies:
 
 Backend (Node.js):
 bash
