@@ -1,0 +1,62 @@
+.InventoryDashboard {
+    padding: 20px;
+}
+
+.itemsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.itemsTable th,
+.itemsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.itemsTable th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.editButton,
+.deleteButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.editButton:hover {
+    color: #0056b3;
+}
+
+.deleteButton:hover {
+    color: #d9534f;
+}
+
+.InventoryDashboard .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.InventoryDashboard h1 {
+    margin: 0;
+
+}
+
+
+.InventoryDashboard .navigate-button {
+    margin: 40px;
+    padding: 6px;
+    background-color: rgb(13, 114, 230);
+    border-radius: 5px;
+    border: none;
+
+    &:hover {
+        box-shadow: rgb(153, 153, 153) 0px 0px 3px 3px;
+    }
+}

@@ -1,0 +1,129 @@
+.SignUp p {
+    font-weight: bold;
+}
+
+
+
+.SignUp button {
+    margin: 10px;
+    padding: 6px;
+    margin: auto;
+    background-color: rgb(13, 114, 230);
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+    &:hover {
+        box-shadow: rgb(153, 153, 153) 0px 0px 3px 3px;
+    }
+}
+
+.SignUp a {
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+
+@media (min-width: 901px) {
+    .SignUp form {
+        width: 80vw;
+        text-align: left;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .SignUp h6 {
+        margin-bottom: 40px;
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+
+
+    .SignUp .formContainer {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+        border: 1px solid grey;
+    }
+
+
+    .formRow {
+        display: flex;
+        margin: 10px;
+    }
+
+    .addressSignUpArea {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 10px;
+        margin-top: 20px;
+    }
+
+    .addressSignUpArea div {
+        display: flex;
+    }
+
+    .addressSignUpArea2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 10px;
+
+    }
+
+    .addressSignUpArea2 div {
+        display: flex;
+    }
+
+    .zipCode {
+        display: grid;
+        grid-template-columns: 150px 457px;
+        margin: 10px;
+    }
+
+    .zipCode div {
+        margin-bottom: 10px;
+        display: flex;
+    }
+
+
+    .SignUp label {
+        width: 150px;
+    }
+
+    .SignUp input {
+        margin-right: 40px;
+    }
+
+    .checkBox {
+        margin: 10px;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+
+    .SignUp form {
+        margin: 50px;
+    }
+
+    .SignUp h6 {
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+
+
+    .SignUp form .formContainer .formRow {
+        margin: 20px;
+    }
+
+    .SignUp form .formContainer .checkBox {
+        margin: 20px;
+    }
+
+    .SignUp form .formContainer input {
+        margin: 5px;
+    }
+}

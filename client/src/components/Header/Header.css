@@ -1,0 +1,122 @@
+.Header {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+
+@media screen and (max-width: 900px) {
+    .Header .desktopNavBar {
+        display: none;
+    }
+}
+
+
+.lightMode .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a0d2eb;
+    padding: 10px;
+}
+
+.darkMode .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+
+.desktopNavBar .Menu {
+    display: flex;
+}
+
+.desktopNavBar {
+    list-style: none;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+}
+
+.lightMode .desktopNavBar a {
+    text-decoration: none;
+    color: #333;
+
+    &:hover {
+        color: white;
+    }
+}
+
+
+.darkMode .desktopNavBar a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        color: #a0d2eb;
+    }
+}
+
+.rightNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftNav {
+    display: flex;
+    align-items: center;
+}
+
+
+.SearchInput,
+.ThemeMode,
+.desktopNavBar li {
+    padding-right: 20px;
+}
+
+
+.userImg,
+.loginImg {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.logoutImg {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.cartImg {
+    width: 40px;
+    height: 40px;
+}
+
+.adminImg {
+    width: 30px;
+    height: 30px;
+}
+
+.loginImg,
+.cartImg,
+.adminImg,
+.logoutImg:hover {
+    cursor: pointer;
+}
+
+.userImg {
+    margin-left: 20px;
+}
+
+
+.logo {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}

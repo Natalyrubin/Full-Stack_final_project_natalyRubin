@@ -1,0 +1,25 @@
+.MyCards {
+    width: 80%;
+    margin: auto;
+}
+
+
+.MyCards a {
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.MyCards .button {
+    margin-top: 20px;
+    padding: 6px;
+    background-color: rgb(13, 114, 230);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.MyCards .button:hover {
+    box-shadow: rgb(153, 153, 153) 0px 0px 3px 3px;
+}

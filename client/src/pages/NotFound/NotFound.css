@@ -1,0 +1,26 @@
+.NotFound_Page p {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.NotFound_Page h1 {
+    font-size: 10rem;
+}
+
+.NotFound_Page button {
+    margin: 5vh;
+    padding: 6px;
+    background-color: rgb(13, 114, 230);
+    border-radius: 5px;
+    border: none;
+
+    &:hover {
+        box-shadow: rgb(153, 153, 153) 0px 0px 3px 3px;
+    }
+}
+
+.NotFound_Page a {
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+}

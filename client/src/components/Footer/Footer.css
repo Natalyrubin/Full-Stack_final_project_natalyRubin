@@ -1,0 +1,91 @@
+@media screen and (min-width: 900px) {
+    .Footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .aboutFooter,
+    .socialContact,
+    .newsletter {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Footer {
+        padding: 30px;
+    }
+
+
+    .aboutFooter,
+    .socialContact,
+    .newsletter {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+}
+
+.lightMode .Footer {
+    background-color: #a0d2eb;
+    padding: 20px;
+    color: #333;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.darkMode .Footer {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+
+
+.lightMode h6:hover {
+    color: white;
+}
+
+
+.darkMode h6:hover {
+    color: #a0d2eb;
+}
+
+
+
+.Footer p {
+    font-size: 0.7rem;
+}
+
+
+.Footer label {
+    font-size: 0.8rem;
+}
+
+
+.footerImg {
+    display: flex;
+    justify-content: center;
+}
+
+.imgF {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+}
+
+.inputSubscribe {
+    display: flex;
+}

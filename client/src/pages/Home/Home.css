@@ -1,0 +1,35 @@
+.HomePage {
+    width: 90%;
+    margin: auto;
+}
+
+
+.HomePage h1 {
+    padding: 20px;
+}
+
+
+.HomePage p {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+.HomePage .button {
+    margin: 40px;
+    padding: 6px;
+    background-color: rgb(13, 114, 230);
+    border-radius: 5px;
+    border: none;
+
+    &:hover {
+        box-shadow: rgb(153, 153, 153) 0px 0px 3px 3px;
+    }
+}
+
+.HomePage a {
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+}

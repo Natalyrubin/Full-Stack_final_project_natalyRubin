@@ -1,0 +1,48 @@
+.EditUserDetails {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+}
+
+.EditUserDetails h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.EditUserDetails .formRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.EditUserDetails .formRow label {
+    width: 150px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.EditUserDetails .formRow input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.EditUserDetails button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0d72e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.EditUserDetails button[type="submit"]:hover {
+    background-color: #0854a1;
+}

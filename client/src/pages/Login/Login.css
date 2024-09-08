@@ -1,0 +1,47 @@
+.Login h1 {
+    padding: 20px;
+}
+
+
+.Login p {
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.Login form {
+    width: 320px;
+    margin: auto;
+    padding: 10px;
+}
+
+.Login form div {
+    display: flex;
+    justify-content: space-between;
+    direction: ltr;
+    margin: 10px;
+
+}
+
+
+.Login button {
+    margin: 10px;
+    padding: 6px;
+    background-color: rgb(13, 114, 230);
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+    &:hover {
+        box-shadow: rgb(153, 153, 153) 0px 0px 3px 3px;
+    }
+}
+
+
+
+.Login a {
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+}
