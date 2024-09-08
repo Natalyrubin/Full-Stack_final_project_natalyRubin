@@ -28,10 +28,9 @@ This is a full-stack e-commerce application for selling surfboards, built with H
 ## Setup Instructions
 
 ### 1. Download the Repository
-```bash
-git clone https://github.com/your-username/surfboards-ecommerce.git
-cd surfboards-ecommerce
-```
+https://github.com/Natalyrubin/Full-Stack_final_project_natalyRubin.git
+
+
 
 
 ### 2. Install Dependencies
